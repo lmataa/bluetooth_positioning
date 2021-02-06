@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bluetooth_positioning"
+version = "0.1.0"
+description = ""
+authors = ["Luis Mata <luismata06@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.3.4"
+tensorflow = "^2.3.1"
+# jupyterss
+jupyter = "^1.0.0"
+ipykernel = "^5.4.3"
+ipywidgets = "^7.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
